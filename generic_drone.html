@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Welcome</a>
+				<nav>
+					<ul>
+						<!-- <li><a href="generic_drone.html">About Project</a></li> -->
+						<li><a href="generic_drone.html" class="active">Quanser Aero 2</a></li>
+						<!-- <li><a href="elements_drone.html">Quanser Aero 2</a></li> -->
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper"> 
+
+				<!-- Main -->
+					<section id="main" class="wrapper style3-alt">
+						<div class="inner">
+							<h1 class="major">Quanser Aero 2</h1>
+							<!-- <span class="image fit"><img src="images/drone.jpeg" alt="" /></span> -->
+							<p>The aim of this project was to design a cascaded PID controller to control the pitch and yaw of both configurations
+								of the Quanser Aero 2 platform (1-DOF Bi-copter and 2-DOF Helicopter), and evaluate the feasability of developing
+								a new 2-DOF quadcopter configuration. The performance of PID control in UAVs was evaluated through hardware-in-loop simulation, using
+								MATLAB/Simulink and QUARC real-time control software.<br />
+							</p>
+							<p>The Quanser Aero 2 is a fixed platform used in research and development of control systems for
+							UAVs. It consists of two brushless DC motors and rotors generating thrust allowing the system to
+							pitch and yaw. It is also equipped with 4 encoders, a gyroscope, accelerometer, and magnetometer,
+							measuring pitch and yaw angles, and rotor speed.
+							</p>
+							<div class="row aln-left" >
+								<ul class="actions">
+									<li><a href="assets/files/SHANAN_Mahmoud_Final_Report.pdf" target = "_blank" class="button">Full Project</a></li>	
+								</ul>
+							</div>
+							<div class="box alt">
+								<div class="row gtr-uniform">								
+									<div class="col-5"><span class="image fit"><img src="images/bi.gif" alt="" /></span></div>
+									<div class="col-5"><span class="image fit"><img src="images/heli.gif" alt="" /></span></div>
+									<div class="col-12"><span class="image fit"><img src="images/quad.gif" alt="" /></span></div> 
+									<div class="col-8"><span class="image fit"><img src="images/virtual.gif" alt="" /></span></div> 
+									<div class="off-8"><span class="image fit"><img src="images/overview.png" alt="" /></span></div>
+								</div>
+							</div>
+							<p9>Key Findings</p9>
+							<p>• It was not possible to control both pitch and
+								yaw simultaneously in the bi-copter configuration, unlike the helicopter configuration.<br />
+								• Pitch control in both configurations was almost
+								identical, with fast time response, low steady-state error, and small oscillations.<br /> 
+								• For bi-copter
+								yaw control, time response was thirty times slower than the helicopter as both rotors were
+								horizontal compared to the helicopter where one rotor was vertical. <br />• Mathematical and
+								mechanical approaches were proposed to attempt controlling the system as a quadcopter, yet
+								they were both unsuccessful. This implied that the Quanser Aero 2 could not be controlled as a
+								quadcopter.</p>
+						</div>
+					</section>
+			</div>
+
+		<!-- Footer -->
+			<!-- <footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer> -->
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
