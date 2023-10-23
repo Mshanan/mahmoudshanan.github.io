@@ -388,7 +388,7 @@ input, select, textarea {
 		}
 
 		.row > .col-2 {
-			width: 40%;		/* it was 16.66667*/
+			width: 33%;		/* it was 16.66667*/
 		}
 
 		.row > .off-2 {
@@ -404,7 +404,7 @@ input, select, textarea {
 		}
 
 		.row > .col-4 {
-			width: 32%;		
+			width: 33%;			/*was 33.33333%;*/
 		}
 
 		.row > .off-4 {
@@ -413,7 +413,7 @@ input, select, textarea {
 		}
 
 		.row > .col-5 {
-			width: 25%;		/* it was 41.66667*/
+			width: 23%;		/* it was 41.66667*/
 		}
 
 		.row > .off-5 {
@@ -431,7 +431,7 @@ input, select, textarea {
 		}
 
 		.row > .col-7 {
-			width: 50%;		/* it was 58.33333*/
+			width: 45%;		/* it was 58.33333*/
 		}
 
 		.row > .off-7 {
@@ -439,12 +439,12 @@ input, select, textarea {
 		}
 
 		.row > .col-8 {
-			width: 66%;		/* it was 66.66667%*/
+			width: 65.5%;		/* it was 66.66667%*/
 		}
 
 		.row > .off-8 {
 			/*margin-left: 66.66667%;		*/
-			width: 34%;
+			width: 34.5%;
 		}
 
 		.row > .col-9 {
@@ -472,7 +472,7 @@ input, select, textarea {
 		}
 
 		.row > .col-12 {
-			width: 50%;			/* it was 100%*/
+			width: 54%;			/* it was 100%*/
 		}
 
 		.row > .off-12 {
