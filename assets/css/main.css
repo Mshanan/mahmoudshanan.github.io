@@ -447,24 +447,24 @@ input, select, textarea {
 			width: 34.5%;
 		}
 
-		.row > .col-9 {
-			width: 75%;
+		.row > .col-9 {		/* it was 75%*/
+			width: 30%;
 		}
 
 		.row > .off-9 {
 			margin-left: 75%;
 		}
 
-		.row > .col-10 {
-			width: 83.33333%;
+		.row > .col-10 {	/* it was 83.33333%*/
+			width: 38.5%;
 		}
 
 		.row > .off-10 {
 			margin-left: 83.33333%;
 		}
 
-		.row > .col-11 {
-			width: 91.66667%;
+		.row > .col-11 {	/* it was 91.66667%*/
+			width: 50%;
 		}
 
 		.row > .off-11 {
@@ -3267,16 +3267,17 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			/*background-color: #6120c8;	/*get in touch*/
-			background-color: #1d1b4b;
+			/* background-color: #1d1b4b; */
+			background-color: #09063d;
 		}
 
 		.wrapper.style1-alt {
 			background-color: #757081;
 		}
 
-		.wrapper.style2 {
-			background-color: #1d1b4b;	/*projects*/
-			/* background-color: rgb(27, 24, 102); */
+		.wrapper.style2 {	/*projects*/
+			background-color: #1d1b4b;	
+			/* background-color: rgb(10, 10, 13); */
 		}
 
 		.wrapper.style2-alt {
@@ -3939,6 +3940,6 @@ input, select, textarea {
 		}
 	#small{
      	width:50%;
-		 margin: 0 0 0 3em;
+		 margin: 0 0 3em 3em;
 		 border-radius: 60%;
 		}
