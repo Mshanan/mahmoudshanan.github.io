@@ -482,6 +482,31 @@ input, select, textarea {
 			width: 29.5%;
 		}
 
+		.row > .cust1 {
+			width: 50%;			/* by me */
+		}
+
+		.row > .cust2 {
+			width: 40%;			/* by me */
+		}
+
+		.row > .cust3 {
+			width: 27%;			/* by me */
+		}
+
+		.row > .cust4 {
+			width: 40%;			/* by me */
+		}
+
+		.row > .cust5 {
+			width: 28%;			/* by me */
+		}
+
+		.row > .cust6 {
+			width: 30%;			/* by me */
+		}
+
+
 		.row.gtr-0 {
 			margin-top: 0;
 			margin-left: 0em;
